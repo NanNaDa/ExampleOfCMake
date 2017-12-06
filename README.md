@@ -3,7 +3,7 @@
 ## cmake는 이미 설치되어 있다고 가정한다.
 
 
-### 디렉토리는 아래와 같다.
+## 디렉토리는 아래와 같다.
 <ul>
 	<li>test</li>
 	<ul>
@@ -12,7 +12,7 @@
 	</ul>
 </ul>
 	
-### 각각의 폴더에 CMakeLists.txt파일을 생성한다.
+## 각각의 폴더에 CMakeLists.txt파일을 생성한다.
 <ul>
 	<li>test/CMakeLists.txt</li>
 	<ul>
@@ -22,7 +22,7 @@
 </ul>
 
 
-### 각각의 CMakeLists.txt는 아래와 같다.
+## 각각의 CMakeLists.txt는 아래와 같다.
 #### test/CMakeLists.txt
 	# The name of our project is "HELLO". CMakeLists files in this project can
 	# refer to the root source directory of the project as ${HELLO_SOURCE_DIR} and 
@@ -55,7 +55,7 @@
 	# Link the executable to the Hello library.
 	target_link_libraries(helloDemo Hello)
 
-### test/Hello와 test/Demo에 소스코드를 작성한다.
+## test/Hello와 test/Demo에 소스코드를 작성한다.
 #### test/Demo/demo.c
 	#include <stdio.h>
 	#include "hello.h"
@@ -81,3 +81,18 @@
 	{
 		printf("안녕하세요?\n");
 	}
+
+
+## 빌드 (Build)
+
+	$ cmake CMakeLists.txt
+
+
+## 링크 (Link)
+
+	$ make
+
+
+## 실행 (Execute)
+
+	$ ./Demo/helloDemo
