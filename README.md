@@ -11,7 +11,6 @@
 			<li>Hello</li>
 		</ul>
 	</ul>
-
 	<li>각각의 폴더에 CMakeLists.txt파일을 생성한다.</li>
 	<ul>
 		<li>test/CMakeLists.txt</li>
