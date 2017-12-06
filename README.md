@@ -24,7 +24,7 @@
 
 ### 각각의 CMakeLists.txt는 아래와 같다.
 
-	##test/CMakeLists.txt
+#### test/CMakeLists.txt
 	# The name of our project is "HELLO". CMakeLists files in this project can
 	# refer to the root source directory of the project as ${HELLO_SOURCE_DIR} and 
 	# to the root binary directory of the project as ${HELLO_BINARY_DIR}.
@@ -37,12 +37,12 @@
 	add_subdirectory(Hello)
 	add_subdirectory(Demo)
 
-	##test/Hello/CMakeLists.txt
+#### test/Hello/CMakeLists.txt
 	# Create a library called "Hello" which includes the source file "hello.cxx"
 	# The extension is already found. Any number of sources could be listed here.
 	add_library(Hello hello.c)
 
-	## test/Demo/CMakeLists.txt
+#### test/Demo/CMakeLists.txt
 	# Make sure the compiler can find include files from our Hello library.
 	include_directories(${HELLO_SOURCE_DIR}/Hello)
 	#
