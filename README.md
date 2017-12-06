@@ -22,7 +22,7 @@
 	</ul>
 
 
-###각각의 CMakeLists.txt는 아래와 같다.</li>
+###각각의 CMakeLists.txt는 아래와 같다.
 	##test/CMakeLists.txt
 	# The name of our project is "HELLO". CMakeLists files in this project can
 	# refer to the root source directory of the project as ${HELLO_SOURCE_DIR} and 
