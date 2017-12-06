@@ -4,6 +4,7 @@
 
 <ol>
 	<li>디렉토리는 아래와 같다.</li>
+
 	<ul>
 		<li>test</li>
 		<ul>
@@ -12,6 +13,7 @@
 		</ul>
 	</ul>
 	<li>각각의 폴더에 CMakeLists.txt파일을 생성한다.</li>
+	
 	<ul>
 		<li>test/CMakeLists.txt</li>
 		<ul>
