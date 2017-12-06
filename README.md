@@ -27,7 +27,15 @@
 	# to the root binary directory of the project as ${HELLO_BINARY_DIR}.
 	cmake_minimum_required(VERSION 2.6)
 	project(HELLO)
+	# 
+	# Recurse into the "Hello" and "Demo" subdirectories. This does not actually
+	# cause another cmake executable to run. The same process will walk through
+	# the project's entire directory structure.
+	add_subdirectory(Hello)
+	add_subdirectory(Demo)
 
-
+	## test/Hello/CMakeLists.txt
+	# Create a library called "Hello" which includes the source file "hello.cxx"
+	#
 </ol>
 
