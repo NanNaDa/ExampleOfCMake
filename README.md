@@ -20,8 +20,8 @@
 		</ul>
 	</ul>
 	<li>각각의 CMakeLists.txt는 아래와 같다.</li>
+	<ul>test/CMakeLists.txt</ul>
 
-	## test/CMakeLists.txt
 	# The name of our project is "HELLO". CMakeLists files in this project can
 	# refer to the root source directory of the project as ${HELLO_SOURCE_DIR} and 
 	# to the root binary directory of the project as ${HELLO_BINARY_DIR}.
@@ -33,9 +33,8 @@
 	# the project's entire directory structure.
 	add_subdirectory(Hello)
 	add_subdirectory(Demo)
-
-
-	## test/Hello/CMakeLists.txt
+	<ul>test/Hello/CMakeLists.txt</ul>
+	
 	# Create a library called "Hello" which includes the source file "hello.cxx"
 	#
 </ol>
