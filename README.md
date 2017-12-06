@@ -22,7 +22,7 @@
 </ul>
 
 
-###각각의 CMakeLists.txt는 아래와 같다.
+### 각각의 CMakeLists.txt는 아래와 같다.
 
 	##test/CMakeLists.txt
 	# The name of our project is "HELLO". CMakeLists files in this project can
