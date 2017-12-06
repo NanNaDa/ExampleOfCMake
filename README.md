@@ -21,4 +21,4 @@
 	cmake_minimum_required(VERSION 2.6)
 	project(HELLO)
 
-![Image](/images/folder.png=16x16)
+![Image](/images/folder.png)
