@@ -10,4 +10,3 @@ src/**/CMakeFiles
 
 #
 *.o
-*.a
