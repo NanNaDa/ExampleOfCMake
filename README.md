@@ -5,7 +5,7 @@
 
 ## 디렉토리는 아래와 같다.
 <ul>
-	<li>test</li>
+	<li>src</li>
 	<ul>
 		<li>Demo</li>
 		<li>Hello</li>
@@ -14,7 +14,7 @@
 	
 ## 각각의 폴더에 CMakeLists.txt파일을 생성한다.
 <ul>
-	<li>test/CMakeLists.txt</li>
+	<li>src/CMakeLists.txt</li>
 	<ul>
 		<li>Demo/CMakeLists.txt</li>
 		<li>Hello/CmakeLists.txt</li>
@@ -23,7 +23,7 @@
 
 
 ## 각각의 CMakeLists.txt는 아래와 같다.
-#### test/CMakeLists.txt
+#### src/CMakeLists.txt
 	# The name of our project is "HELLO". CMakeLists files in this project can
 	# refer to the root source directory of the project as ${HELLO_SOURCE_DIR} and 
 	# to the root binary directory of the project as ${HELLO_BINARY_DIR}.
@@ -36,12 +36,12 @@
 	add_subdirectory(Hello)
 	add_subdirectory(Demo)
 
-#### test/Hello/CMakeLists.txt
+#### src/Hello/CMakeLists.txt
 	# Create a library called "Hello" which includes the source file "hello.cxx"
 	# The extension is already found. Any number of sources could be listed here.
 	add_library(Hello hello.c)
 
-#### test/Demo/CMakeLists.txt
+#### src/Demo/CMakeLists.txt
 	# Make sure the compiler can find include files from our Hello library.
 	include_directories(${HELLO_SOURCE_DIR}/Hello)
 	#
@@ -55,8 +55,8 @@
 	# Link the executable to the Hello library.
 	target_link_libraries(helloDemo Hello)
 
-## test/Hello와 test/Demo에 소스코드를 작성한다.
-#### test/Demo/demo.c
+## src/Hello와 src/Demo에 소스코드를 작성한다.
+#### src/Demo/demo.c
 	#include <stdio.h>
 	#include "hello.h"
 	int main()
@@ -65,8 +65,9 @@
 		return 0;
 	}
 
-#### test/Hello/hello.h
+#### src/Hello/hello.h
 	#include <stdio.h>
+	
 	#ifndef __HELLO_H__
 	#define __HELLO_H__
 
@@ -74,7 +75,7 @@
 
 	#endif
 
-#### test/Hello/hello.c
+#### src/Hello/hello.c
 	#include "hello.h"
 
 	void hello()
