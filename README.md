@@ -20,3 +20,5 @@
 	# to the root binary directory of the project as ${HELLO_BINARY_DIR}.
 	cmake_minimum_required(VERSION 2.6)
 	project(HELLO)
+
+![GitHub Logo](/images/logo.png)
