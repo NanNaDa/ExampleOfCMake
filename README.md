@@ -5,20 +5,23 @@
 
 <ol type="1"> 
 	<li>디렉토리는 아래와 같다.</li>
-	<li>test</li>
+	
 
 	- test
 	  - Demo
 	  - Hello
 
 
-2. 각각의 폴더에 CMakeLists.txt파일을 생성한다.
+	  <li>각각의 폴더에 CMakeLists.txt파일을 생성한다.</li>
+
 
 	- test/CMakeLists.txt
 	  - Demo/CMakeLists.txt
 	  - Hello/CmakeLists.txt
 
-3. 각각의 CMakeLists.txt는 아래와 같다.
+
+	  <li>각각의 CMakeLists.txt는 아래와 같다.</li>
+
 
 	test/CMakeLists.txt
 
@@ -29,3 +32,4 @@
 	project(HELLO)
 
 	
+</ol>
