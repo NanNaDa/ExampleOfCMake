@@ -12,7 +12,7 @@
 	  - Hello
 
 
-	  <li>각각의 폴더에 CMakeLists.txt파일을 생성한다.</li>
+	<li>각각의 폴더에 CMakeLists.txt파일을 생성한다.</li>
 
 
 	- test/CMakeLists.txt
@@ -20,7 +20,7 @@
 	  - Hello/CmakeLists.txt
 
 
-	  <li>각각의 CMakeLists.txt는 아래와 같다.</li>
+	<li>각각의 CMakeLists.txt는 아래와 같다.</li>
 
 
 	test/CMakeLists.txt
