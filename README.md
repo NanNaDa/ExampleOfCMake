@@ -4,22 +4,22 @@
 
 
 ### 디렉토리는 아래와 같다.
+<ul>
+	<li>test</li>
 	<ul>
-		<li>test</li>
-		<ul>
-			<li>Demo</li>
-			<li>Hello</li>
-		</ul>
+		<li>Demo</li>
+		<li>Hello</li>
 	</ul>
+</ul>
 	
 ### 각각의 폴더에 CMakeLists.txt파일을 생성한다.
+<ul>
+	<li>test/CMakeLists.txt</li>
 	<ul>
-		<li>test/CMakeLists.txt</li>
-		<ul>
-			<li>Demo/CMakeLists.txt</li>
-			<li>Hello/CmakeLists.txt</li>
-		</ul>
+		<li>Demo/CMakeLists.txt</li>
+		<li>Hello/CmakeLists.txt</li>
 	</ul>
+</ul>
 
 
 ###각각의 CMakeLists.txt는 아래와 같다.
