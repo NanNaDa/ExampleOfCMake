@@ -23,11 +23,11 @@
 
 File Name | test/CMakeLists.txt
 ---------- | ---------- 
-Contents | <ul># The name of our project is "HELLO". CMakeLists files in this project can
-# refer to the root source directory of the project as ${HELLO_SOURCE_DIR} and
-	# to the root binary directory of the project as ${HELLO_BINARY_DIR}.
-	cmake_minimum_required(VERSION 2.6)
-	project(HELLO)
+Contents | <ul> <li># The name of our project is "HELLO". CMakeLists files in this project can </li>
+<li># refer to the root source directory of the project as ${HELLO_SOURCE_DIR} and </li>
+<li># to the root binary directory of the project as ${HELLO_BINARY_DIR}. </li>
+<li>cmake_minimum_required(VERSION 2.6)</li>
+<li>project(HELLO)</li>
 </ul>
 
 </ol>
