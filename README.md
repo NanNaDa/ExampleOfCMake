@@ -21,4 +21,4 @@
 	cmake_minimum_required(VERSION 2.6)
 	project(HELLO)
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/images/folder.png)
