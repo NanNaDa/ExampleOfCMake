@@ -23,7 +23,6 @@
 
 
 ### 각각의 CMakeLists.txt는 아래와 같다.
-
 #### test/CMakeLists.txt
 	# The name of our project is "HELLO". CMakeLists files in this project can
 	# refer to the root source directory of the project as ${HELLO_SOURCE_DIR} and 
@@ -56,4 +55,29 @@
 	# Link the executable to the Hello library.
 	target_link_libraries(helloDemo Hello)
 
+### test/Hello와 test/Demo에 소스코드를 작성한다.
+#### test/Demo/demo.c
+	#include <stdio.h>
+	#include "hello.h"
+	int main()
+	{
+		hello();
+		return 0;
+	}
 
+#### test/Hello/hello.h
+	#include <stdio.h>
+	#ifndef __HELLO_H__
+	#define __HELLO_H__
+
+	void hello();
+
+	#endif
+
+#### test/Hello/hello.c
+	#include "hello.h"
+
+	void hello()
+	{
+		printf("안녕하세요?\n");
+	}
