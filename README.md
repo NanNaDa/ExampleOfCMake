@@ -37,12 +37,10 @@
 	add_subdirectory(Hello)
 	add_subdirectory(Demo)
 
-
 	##test/Hello/CMakeLists.txt
 	# Create a library called "Hello" which includes the source file "hello.cxx"
 	# The extension is already found. Any number of sources could be listed here.
 	add_library(Hello hello.c)
-
 
 	## test/Demo/CMakeLists.txt
 	# Make sure the compiler can find include files from our Hello library.
