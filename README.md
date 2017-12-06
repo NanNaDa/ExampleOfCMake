@@ -1,4 +1,4 @@
-## ExampleOfCMake
+# ExampleOfCMake
 
 # cmake는 이미 설치되어 있다고 가정한다.
 
