@@ -1,5 +1,7 @@
 # ignore folders
 src/CMakeFiles/
+src/*/CMakeFiles
+
 
 # ignore files
 src/Makefile
