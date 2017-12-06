@@ -5,24 +5,16 @@
 
 <ol type="1"> 
 	<li>디렉토리는 아래와 같다.</li>
-	
-
 	- test
 	  - Demo
 	  - Hello
 
-
 	<li>각각의 폴더에 CMakeLists.txt파일을 생성한다.</li>
-
-
 	- test/CMakeLists.txt
 	  - Demo/CMakeLists.txt
 	  - Hello/CmakeLists.txt
 
-
 	<li>각각의 CMakeLists.txt는 아래와 같다.</li>
-
-
 	test/CMakeLists.txt
 
 	# The name of our project is "HELLO". CMakeLists files in this project can
@@ -30,6 +22,4 @@
 	# to the root binary directory of the project as ${HELLO_BINARY_DIR}.
 	cmake_minimum_required(VERSION 2.6)
 	project(HELLO)
-
-	
 </ol>
