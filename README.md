@@ -5,7 +5,6 @@
 
 <ol type="1"> 
 	<li>디렉토리는 아래와 같다.</li>
-
 	<ul>test</ul>
 
 	- test
