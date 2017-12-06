@@ -1,12 +1,13 @@
 # ignore folders
 src/CMakeFiles/
-src/*/CMakeFiles
+src/**/CMakeFiles
 
 
 # ignore files
-src/Makefile
-src/cmake_install.cmake
-src/CMakeCache.txt
+**/Makefile
+**/cmake_install.cmake
+**/CMakeCache.txt
 
 #
-**/.o
+*.o
+*.a
