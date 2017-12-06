@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jkdo/Dropbox/ExampleOfCMake/src/Hello/hello.c
+hello.h
+/Users/jkdo/Dropbox/ExampleOfCMake/src/Hello/hello.h
+
+/Users/jkdo/Dropbox/ExampleOfCMake/src/Hello/hello.h
+stdio.h
+-
+

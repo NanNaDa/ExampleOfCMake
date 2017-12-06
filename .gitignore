@@ -5,3 +5,6 @@ src/CMakeFiles/*
 src/Makefile
 src/cmake_install.cmake
 src/CMakeCache.txt
+
+#
+**/.o
