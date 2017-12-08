@@ -1,5 +1,5 @@
 # ExampleOfCMake
-
+by http://blog.naver.com/PostView.nhn?blogId=imisehi&logNo=150076922823
 ## cmake는 이미 설치되어 있다고 가정한다.
 
 
